@@ -25,4 +25,5 @@ int main() {
 		if ((success == true) && ans == 0) cout << "YES" << endl;
 		else cout << "NO" << endl;
 	}
+
 }
