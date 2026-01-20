@@ -31,10 +31,6 @@ int main(){
                 else if(st.top() == '('){
                     st.pop();
                 }
-                else{
-                    success = false;
-                    break;
-                }
             }
         }
         
@@ -45,4 +41,5 @@ int main(){
             cout << "NO" << '\n';
         }
     }
+    return 0;
 }
