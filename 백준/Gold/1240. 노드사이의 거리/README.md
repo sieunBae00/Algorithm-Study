@@ -26,3 +26,10 @@
 
  <p><mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"> <mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D440 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>M</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$M$</span></mjx-container>개의 줄에 차례대로 입력받은 두 노드 사이의 거리를 출력한다.</p>
 
+---
+
+### Idea
+
+- 처음 생각  
+그래프 느낌.. 시작 노드에서 끝 노드까지의 길이 있는가?  
+> 💡'트리'이므로, 무조건 길은 있다. (연결은 다 되어있음)
