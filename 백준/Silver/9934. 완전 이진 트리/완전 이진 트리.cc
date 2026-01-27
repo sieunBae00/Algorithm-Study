@@ -1,50 +1,37 @@
 #include <iostream>
 using namespace std;
 #include <vector>
-#include <cmath> 
-
-
-int K;
-vector<int> building; 
-vector<vector<int>> level; 
-
-void decLevel(int start, int end, int depth) {
-    if (start > end) return;
-
-    int mid = (start + end) / 2;
-
-    level[depth].push_back(building[mid]);
-
-    decLevel(start, mid - 1, depth + 1);
-
-    decLevel(mid + 1, end, depth + 1);
-}
+#include <cmath>
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
 
-    cin >> K;
+	vector<int> building;
 
-    int num = pow(2, K) - 1;
+	int K;
+	cin >> K;
 
-    for (int i = 0; i < num; i++) {
-        int num;
-        cin >> num;
-        building.push_back(num);
-    }
+	building.resize(pow(2, K));
 
-    level.resize(K);
+	for (int i = 1; i < pow(2, K); i++) {
+		cin >> building[i];
+	}
 
-    decLevel(0, num - 1, 0);
+	for (int i = K; i >= 1; i--) {
+		int a = 1 * pow(2, i - 1);
+		int d = 2 * pow(2, i - 1);
 
-    for (int i = 0; i < K; i++) {
-        for (int node : level[i]) {
-            cout << node << " ";
-        }
-        cout << "\n";
-    }
+		vector<int> ans;
 
-    return 0;
+		for (int idx = 1; idx <= building.size(); idx++) {
+			if ((idx + a) % d == 0) ans.push_back(building[idx]);
+		}
+
+		for (int j = 0; j < ans.size(); j++) {
+			if (j == ans.size()-1) cout << ans[j] << '\n';
+			else cout << ans[j] << " ";
+		}
+	}
 }
