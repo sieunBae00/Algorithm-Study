@@ -9,21 +9,20 @@ vector<bool> visited;
 
 int ans;
 
-void trip(int s, int e, int sum) {
-	if (s == e) {
-		ans = sum;
-		return;
-	}
-
+void trip(int s, int e, int res) {
 	visited[s] = true;
 
 	for (p next : dist[s]) {
+		if (next.first == e) {
+			ans = res + next.second;
+			return; 
+		}
 		if (!visited[next.first]) {
-			trip(next.first, e, sum + next.second);
+			trip(next.first, e, res + next.second);
 		}
 	}
+	return;
 }
-
 
 int main() {
 	int N, M;
@@ -51,4 +50,5 @@ int main() {
 	}
 
 	return 0;
+
 }
