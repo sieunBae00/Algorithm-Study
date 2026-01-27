@@ -40,7 +40,7 @@ int main() {
 	int D;
 	cin >> D;
 
-	if (parent[D] == -1) { // 삭제하려는 노드가 루트 노드이면 0 출력하고 끝.
+	if (parent[D] == -1) { // 삭제하려는 노드가 루트 노드이면 0 출력하고 끝. (+ 밑에서 child[-1]에 접근하는 것 방지)
 		cout << 0 << '\n';
 		return 0;
 	}
@@ -52,13 +52,14 @@ int main() {
 	}
 
 	for (int i = 0; i < N; i++) {
-		if (isDelete[i]) continue; //삭제되었으면 아예 리프 노드 카운팅에서 제외해야 한다.!
+		if (isDelete[i]) continue; // 삭제되었으면 아예 리프 노드 카운팅에서 제외해야 한다.!
 
 		if (child[i].size() == 0) ans++;
 	}
 
-	if (child[parent[D]].size() == 1) ans++;
+	if (child[parent[D]].size() == 1) ans++; // 삭제하려는 노드의 부모 노드의 원래 자식이 1이라면 -> 삭제 후, 부모 노드는 리프 노드가 된다. 따라서 리프노드수 +1
 
 	cout << ans << '\n';
+
 
 }
