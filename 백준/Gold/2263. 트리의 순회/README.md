@@ -77,9 +77,9 @@
 
 
 - ⚠️ 종결 조건이 다음과 같은 것에 의문을 가졌다.  
-'''
-if ((in_end < in_start) || (post_end < post_start)) return; 
-'''
+
+`if ((in_end < in_start) || (post_end < post_start)) return;`  
+
 의문) 왜 "and" 이지? 다른 쪽은 배열의 크기가 1이 아니고 아직 남아 있는 경우는?  
 --> 그러나 나의 어리석음에서 비롯된... 사소한 오해였다.  
 사실 인덱스 계산을 제대로 했다면, __`inorder` 배열의 크기와 `postorder` 배열의 크기는 같아야 한다.__ (앞에서 했던 얘기. 배열의 사이즈는 같다)
