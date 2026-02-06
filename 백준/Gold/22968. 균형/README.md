@@ -79,7 +79,7 @@ graph TD;
     subgraph Level 1
     F
     end
-
+```
 ---
 
 #### 작은 트리부터 시작, 큰 트리를 만들기
