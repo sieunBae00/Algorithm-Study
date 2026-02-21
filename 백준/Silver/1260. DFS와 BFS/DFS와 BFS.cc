@@ -1,38 +1,35 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include <algorithm>
-
 using namespace std;
+#include<vector>
+#include<queue>
 
-int N, M, V;
-vector<vector<int>> adj;
+vector<vector<int>> graph;
 vector<bool> visited;
 
-void dfs(int curr) {
-	visited[curr] = true;
-	cout << curr << " ";
-	for (int next : adj[curr]) {
-		if (!visited[next]) {
-			dfs(next);
-		}
+void DFS(int root) {
+	visited[root] = true;
+	cout << root << " ";
+
+	for (int next : graph[root]) {
+		if (!visited[next]) DFS(next);
 	}
+	return;
 }
 
-void bfs(int start) {
+void BFS(int root) {
 	queue<int> q;
-	q.push(start);
-	visited[start] = true;
+	q.push(root);
+	visited[root] = true; // root 큐에 넣으며 방문 처리
 
 	while (!q.empty()) {
-		int curr = q.front();
+		int next = q.front();
+		cout << next << " ";
 		q.pop();
-		cout << curr << " ";
 
-		for (int next : adj[curr]) {
-			if (!visited[next]) {
-				visited[next] = true;
-				q.push(next);
+		for (int nn : graph[next]) {
+			if (!visited[nn]) {
+				q.push(nn);
+				visited[nn] = true; // 큐에 넣으면 방문 처리
 			}
 		}
 	}
@@ -43,27 +40,28 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
+	int N, M, V;
 	cin >> N >> M >> V;
 
-	adj.resize(N + 1);
+	graph.resize(N + 1);
+	visited.resize(N + 1, false);
+
 	for (int i = 0; i < M; i++) {
 		int u, v;
 		cin >> u >> v;
-		adj[u].push_back(v);
-		adj[v].push_back(u);
+
+		graph[u].push_back(v);
+		graph[v].push_back(u);
 	}
 
 	for (int i = 1; i <= N; i++) {
-		sort(adj[i].begin(), adj[i].end());
+		sort(graph[i].begin(), graph[i].end());  // 각 노드에 연결된 간선을 노드 번호에 따라 정렬
 	}
 
-	visited.assign(N + 1, false);
-	dfs(V);
+	DFS(V);
 	cout << '\n';
-
-	visited.assign(N + 1, false);
-	bfs(V);
-	cout << '\n';
+	visited.assign(N+1, false); // visited 배열 초기화
+	BFS(V);
 
 	return 0;
 }
