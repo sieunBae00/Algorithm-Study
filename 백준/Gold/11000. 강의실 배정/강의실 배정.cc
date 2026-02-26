@@ -15,33 +15,33 @@ int main(){
         int S, T;
         cin >> S >> T;
 
-        pq.push({S, T});
+        pq.push({S, T}); // 수업 시간을 큐에 저장
     }
     
     while(!pq.empty()){
         p time = pq.top();
 
         if(room.empty()){
-            room.push(time.second);
-            pq.pop();
+            room.push(time.second); // '교실 큐' 가 비었으면 일단 push()
+            pq.pop(); // 수업 시간 큐에서 제거
             continue;
         }
 
-        if(room.top() > time.first){ // 🤦‍♂️🤦‍♂️ 아... 만약에 교실을 꺼냈는데 못 들어가면? (어제 보석도둑 과 같은상황.) 반대로 생각해보기~~
-        // 못 들어가면 교실을 새로 만들어야지 !! 어차피 끝이 가장 적은 시간대의 교실을 뺀 건데, 거길 못 들어가면 다른 곳도 못 들어가지 !!
-            room.push(time.second);
-            pq.pop();
+        if(room.top() > time.first){ // 만약 시간이 겹쳐서 교실에 들어갈 수 없다면
+            room.push(time.second); // 교실을 추가하고 해당 시간을 선점한다.
+            pq.pop(); 
         }
-        else{
-            int endtime = room.top();
+        else{ // 만약 교실에 들어갈 수 있다면
+            int endtime = room.top(); 
             room.pop();
-            endtime = time.second;
+            endtime = time.second; // 끝나는 시간을 현재 수업으로 바꾼다.
             room.push(endtime);
             pq.pop();
         }
     }
     
-    cout << room.size() << '\n';
+    cout << room.size() << '\n'; // '교실 큐'의 크기 (=교실 수) 를 출력한다.
 
     return 0;
 }
+
