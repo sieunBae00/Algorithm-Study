@@ -1,40 +1,43 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 #include <stack>
 #include <vector>
 
-int main() {
-    int N;
-    stack<int> st;
-
-    cin >> N;
-    vector<int> v(N);
+int main()
+{
+    stack<pair<int, int>> st;
+    vector<int> ans;
     
-    vector<int> ans(N);
-
-    for (int i = 0; i < N; i++) {
-        cin >> v[i];
-    }
-
-    for (int i = N - 1; i >= 0; i--) {
-      
-        while (!st.empty() && v[st.top()-1] < v[i]) {
-            ans[st.top()-1] = i + 1;
+    int N;
+    cin >> N;
+    
+    ans.resize(N+1);
+    
+    for(int i=1; i<=N; i++){
+        int h;
+        cin >> h;
+        
+        // 스택이 비어있지 않은 경우
+        while(!st.empty() && st.top().second <= h){ // 높이가 같아도 수신 못함!
             st.pop();
         }
-
-        if (st.empty() || v[st.top() - 1] > v[i]) {
-            st.push(i + 1);
+        
+        // 수신 못하는 탑들을 pop() 했더니 스택이 빈 경우
+        if(st.empty()) { 
+            ans[i] = 0;
+            st.push({i, h}); // {인덱스, 높이}
             continue;
         }
+        
+        // 이제 스택의 top() 에는 나보다 큰 탑이 있음
+        ans[i] = st.top().first;
+        st.push({i, h});
     }
-
-    while (!st.empty()) {
-        ans[st.top()-1] = 0;
-        st.pop();
-    }
-
-    for (int i = 0; i < ans.size(); i++) {
+    
+    
+    for(int i=1; i<ans.size(); i++){
         cout << ans[i] << " ";
     }
+    
+    return 0;
 }
