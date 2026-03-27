@@ -46,5 +46,26 @@
 </br>
 
 - ⚠️ 재귀를 언제 돌 것인가? (언제 방문 처리를 할 것인가?)
-  
+  처음에 다음과 같이 재귀 함수를 구성해서, 오류가 있었다.
+  ``` cpp
+  void solve(int curr) {
+    visited[curr] = true;
 
+    for (int next : graph[curr]) {
+        if (!visited[next]) {
+            if (flag[curr] == flag[next]) {
+                colored = false;
+                break;
+            }
+
+            flag[next] = (flag[curr] + 1) % 2;
+            solve(next); // ❌ 연결된 노드에 flag 를 모두 세우기 전에 다음 노드로 재귀를 돌게 된다. !!
+        }
+     }
+    return;
+  }
+```
+
+위와 같이 한다면, 현재 노드에 연결된 노드들에 flag 를 모두 세우기 전에 이미 다음 노드를 방문하게 된다.
+그러면 flag 가 뒤죽박죽이 되어 버린다. --> 먼저 연결되고 방문하지 않은 모든 노드에 flag 를 세운 후, 별도로 방문하지 않은 노드에 대해 재귀를 돌도록 구성한다.
+아래는 수정한 코드이다.
