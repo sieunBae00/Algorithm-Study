@@ -30,3 +30,11 @@
 	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+---
+
+### Idea
+
+너비를 최대로 시작, left/right 둘 중 작은 쪽을 안쪽으로 한 칸 이동시키기.  
+*높이가 작아지는 순간에도, 그 너머에 무엇이 있을 지 알 수 없으므로, max 값을 저장하면서 left-right 가 만나는 순간까지 반복해야 한다.  
