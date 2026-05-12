@@ -40,3 +40,20 @@
 	<li>It is very easy to come up with a solution with a runtime of <code>O(n log n)</code>. Can you do it in linear time <code>O(n)</code> and possibly in a single pass?</li>
 	<li>Can you do it without using any built-in function (i.e., like <code>__builtin_popcount</code> in C++)?</li>
 </ul>
+
+---
+
+### Idea
+
+이진수에서  
+짝수 -> 가장 하위 비트 0  
+홀수 -> 가장 하위 비트 1  
+  
+어떤 수에 2를 곱하면 -> 전체가 왼쪽으로 1비트씩 밀리면서, 가장 하위 비트는 0이 된다.  
+어떤 짝수에 1을 더하면 -> 가장 하위 비트가 1이 된다.  
+
+> 💡 어떤 짝수 i의 1의 개수 = i/2 가 가진 1의 개수  
+> 💡 어떤 홀수 i 의 1의 개수 = i/2 가 가진 1의 개수 + 1  
+  
+- 1의 개수 counting 은 어떻게 할 것인가?  
+  0~n 까지 "순차적으로" 채우며 앞에서 계산한 1의 개수를 이용해 뒤쪽 숫자의 1의 개수를 계산한다.  
