@@ -34,3 +34,13 @@ You need to output 2.
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as <a href="https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/" target="_blank"> 2410: Maximum Matching of Players With Trainers.</a></p>
+
+---
+
+### Idea
+
+가장 작은 `greed` 를 가진 아이에게 가장 작은 쿠키부터 시도해 본다.  
+   
+(`greed`, `size` 배열이 정렬된 상태에서)  
+현재의 쿠키 사이즈로 아이가 만족한다면 -> 다음 아이, 다음 쿠키  
+현재의 쿠키 사이즈로 아이가 만족하지 못한다면 -> 다음 큰 사이즈 쿠키  
