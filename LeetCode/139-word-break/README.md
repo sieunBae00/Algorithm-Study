@@ -37,3 +37,27 @@ Note that you are allowed to reuse a dictionary word.
 	<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>
 	<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>
 </ul>
+
+---
+
+### Idea
+
+만약 string 의 특정 범위 문자열이 wordDict 에 있다고 해서 바로 그대로 확정지으면 문제가 생긴다.  
+-> 경우의 수를 전부 확인해 봐야 한다. 다만 효율적으로, Dynamic Programming!  
+   
+`f(n)`: n 번째 글자까지 도달 가능한지 여부 (T/F)  
+`f(i)` <- 만약 `f(j)=true` 인 `j` 가 존재하고, `j~i` 위치를 잘라낸 문자열이 wordDict 에 존재하면 `true`.  
+    
+🛑 `f(j)=true` 인 `j` 가 존재하지 않는 경우는 어떻게 할 것인가? (초기값 설정 관련)  
+
+> 💡 `ans[]` 배열의 사이즈를 주어진 string 사이즈보다 한 칸 크게 만들어, __0번째 인덱스를 '빈 문자열' 로 생각한다.__   
+> (빈 문자열은 무조건 만들 수 있으므로, `ans[0]=true` 가 된다)   
+> -> 초기값 문제 해결. !!  
+</br>
+
+- ⭐ __`unordered_set`: 해시 기반 자료구조__  
+매번 wordDict[] 를 순회하며 i~j까지 잘라낸 문자열이 있는지 확인해야 한다면.. <- 비효율적   
+`unordered_set` 을 사용하면 상수 시간(`O(1)`) 만에 삽입/삭제/탐색 이 가능하다.  
+   
+<`unordered_set` 의 특징>  
+중복 원소 허용 x. / 특정 순서로 정렬 x. / 평균 `O(1)` 시간에 삽입/삭제/탐색 가능.  
