@@ -42,3 +42,13 @@ It can be shown that we cannot reduce the sum by at least half in less than 3 op
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
 </ul>
+
+---
+
+### Idea
+
+배열 원소의 합을 절반 이하로 줄이는 최소 연산 횟수 구하기.  
+연산 1번 = 배열 중 임의의 원소를 택해 /2 연산.  
+  
+큰 원소를 택하는 것이 유리함.  
+자동으로 정렬된 상태를 유지해 주는 `priority_queue` 사용.  
