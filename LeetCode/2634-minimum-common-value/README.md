@@ -27,3 +27,14 @@
 	<li><code>1 &lt;= nums1[i], nums2[j] &lt;= 10<sup>9</sup></code></li>
 	<li>Both <code>nums1</code> and <code>nums2</code> are sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
+
+--- 
+
+### Idea
+
+두 배열을 처음부터 순회 하다가, 같은 수를 만나면 그것이 두 배열의 최소-공통 수.  
+  
+``` text
+같지 않다면 -> 작은 쪽의 인덱스 +1  
+배열을 모두 순회했음에도 같은 수가 없을 경우 -1을 return.  
+```
