@@ -56,3 +56,16 @@
 	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>s</code> consists of parentheses only <code>&#39;()[]{}&#39;</code>.</li>
 </ul>
+
+---
+
+### Idea
+
+괄호 짝 맞추기.  
+익숙하고 유명한 `stack` 문제이다.  
+
+``` text
+1. 여는 괄호이면 -> 스택에 push
+2. 닫는 괄호이면 -> 스택의 top 을 확인(짝이 맞지 않으면 flase)
+모든 괄호 확인 후 스택이 비어 있어야 짝이 맞음.
+```
