@@ -39,3 +39,11 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
+
+---
+
+### Idea
+
+가장 쉽게 생각한다면, 이중 반복문을 돌며 두 수의 합이 `target` 이 되는 순간의 인덱스를 반환하면 된다.  
+    
+- __Follow-Up:__ `O(n^2)` 보다 적은 시간 안에 해결하려면?
