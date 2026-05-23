@@ -8,10 +8,10 @@ private:
             return;
         }
         if(open > 0){
-            make_parentheses(current_str + "(", open-1, close);
+            make_parentheses(current_str + "(", open-1, close); // 값을 복사해서 넘겨줌
         }
         if(open < close){
-            make_parentheses(current_str + ")", open, close-1);
+            make_parentheses(current_str + ")", open, close-1); // 값을 복사해서 넘겨줌
         }
         return;
     }
