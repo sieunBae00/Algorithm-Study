@@ -40,3 +40,17 @@
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+---
+
+### Idea
+
+입력 배열에서 두 번 이상 등장하는 원소가 존재할 경우 `true` 를 return.  
+  
+어떤 원소가 존재하는지를 탐색 <- 삽입/삭제/탐색 이 상수 시간(`O(1)`)에 가능한 `unordered_set` 사용.  
+  
+``` text
+배열을 순회하며,
+배열의 현재 원소가 unordered_set 에 존재할 경우 -> true를 return.
+현재 원소가 존재하지 않을 경우 -> unordered_set 에 현재 원소 insert.
+```
