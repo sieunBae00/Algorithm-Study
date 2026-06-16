@@ -32,3 +32,20 @@
 	<li>What if <code>nums1</code>&#39;s size is small compared to <code>nums2</code>&#39;s size? Which algorithm is better?</li>
 	<li>What if elements of <code>nums2</code> are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?</li>
 </ul>
+
+
+---
+
+### Idea
+
+일단 생각나는 건 배열의 각 원소마다 다른 배열 전체 순회하며 교집합 원소를 찾는 것.  
+<-- 시간복잡도 `O(n^2)`  
+</br>
+
+-> 두 배열 모두 정렬하고 시작하자.  
+  
+정렬만 하면 그 다음부터는 쉬워진다.   
+두 배열에 각 하나씩 포인터를 두고, 더 작은 쪽의 포인터를 전진시키면 된다.   
+그러다가 같은 값을 만나면 정답 배열에 추가.  
+<-- 시간복잡도 `O(nlogn + mlogm)`  
+
