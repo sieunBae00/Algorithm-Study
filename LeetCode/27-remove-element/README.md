@@ -71,7 +71,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 그런데 여러 케이스에 대해서 예외처리가 복잡해 코드가 지저분해졌다...
 </br>
 
-''' text
+'''text  
 -> 투포인터는 유지하되, 두 개의 포인터 모두를 `0`번 인덱스에서 출발하도록 한다.  
 배열을 순회하는 포인터(`fast`)와, 다음 유효한 숫자를 덮어쓸 위치를 가리키는 포인터(`slow`) 로 역할을 구분한다.  
 💡 `fast` 가 배열을 순회하다가 유효한 숫자(=`val` 이 아닌 숫자) 를 만나면, `slow` 위치에 그 숫자를 덮어쓴다. 그 후 `slow` 를 하나 전진시킨다.  
