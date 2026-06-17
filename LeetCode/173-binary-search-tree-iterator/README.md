@@ -57,9 +57,9 @@ bSTIterator.hasNext(); // return False
 문제에서 요구하는 동작에 맞게 클래스의 생성자와 멤버 변수/함수를 구현하면 된다.   
 
 ``` text
-`BSTIterator(TreeNode* root)`: 생성자.   
-`int next()`: 호출 시마다 BST 에서 가장 작은 노드의 값을 차례로 반환한다.  
-`bool hasNext()`: 다음 반환할 값이 있는지를 검사해 true/false 를 반환한다.  
+BSTIterator(TreeNode* root): 생성자.   
+int next(): 호출 시마다 BST 에서 가장 작은 노드의 값을 차례로 반환한다.  
+bool hasNext(): 다음 반환할 값이 있는지를 검사해 true/false 를 반환한다.  
 ```
   
 `next()` 를 구현하기 위해 -> `priority_queue(우선순위큐)` 를 사용한다.   
