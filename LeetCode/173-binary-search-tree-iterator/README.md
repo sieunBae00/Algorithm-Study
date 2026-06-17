@@ -48,3 +48,20 @@ bSTIterator.hasNext(); // return False
 <ul>
 	<li>Could you implement <code>next()</code> and <code>hasNext()</code> to run in average <code>O(1)</code> time and use&nbsp;<code>O(h)</code> memory, where <code>h</code> is the height of the tree?</li>
 </ul>
+
+
+---
+
+### Idea
+
+문제에서 요구하는 동작에 맞게 클래스의 생성자와 멤버 변수/함수를 구현하면 된다.   
+
+``` text
+`BSTIterator(TreeNode* root)`: 생성자.   
+`int next()`: 호출 시마다 BST 에서 가장 작은 노드의 값을 차례로 반환한다.  
+`bool hasNext()`: 다음 반환할 값이 있는지를 검사해 true/false 를 반환한다.  
+```
+  
+`next()` 를 구현하기 위해 -> `priority_queue(우선순위큐)` 를 사용한다.   
+`BSTIterator()` 생성자에서 트리를 순회하며 각 노드의 값을 우선순위 큐에 저장한다. (오름차순)  
+순회를 위해 `Traversal()` 재귀 함수를 정의하여 헬퍼 함수로 사용한다.  
