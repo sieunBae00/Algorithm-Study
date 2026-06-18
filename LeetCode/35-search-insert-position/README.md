@@ -33,3 +33,17 @@
 	<li><code>nums</code> contains <strong>distinct</strong> values sorted in <strong>ascending</strong> order.</li>
 	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+---
+
+### Idea
+
+`O(logn)` 시간복잡도 안에 해결해야 한다. -> 이분탐색.  
++) 찾지 못했을 때 마지막 위치(인덱스)를 반환하는 로직을 추가.  
+</br>
+
+- 찾지 못했을 때 인덱스 반환 어떻게?  
+``` text
+  현재 mid 의 값이 target 보다 크다면 -> 현재 mid 자리에 target 을 추가  
+  현재 mid 의 값이 target 보다 작다면 -> 현재 mid 바로 오른쪽에 target 을 추가  
+```
