@@ -89,3 +89,21 @@
 	<li><code>path</code> consists of English letters, digits, period <code>&#39;.&#39;</code>, slash <code>&#39;/&#39;</code> or <code>&#39;_&#39;</code>.</li>
 	<li><code>path</code> is a valid absolute Unix path.</li>
 </ul>
+
+---
+
+### Idea
+
+'/' 을 기준으로 문자열을 분리한다. -> `getline()` 함수를 이용한다.  
+  
+- ⭐ __`stringstream`__: 파이프(`|`) 역할을 한다.  
+  
+``` text
+".": 현재 디렉토리를 나타낸다. 아무 동작도 하지 않는다.  
+"..": 상위 디렉토리를 나타낸다. 바로 이전 문자열을 pop() 한다.  
+"": 빈 문자열. "//" 와 같이 '/' 가 중복되어 등장했음을 의미한다. 아무 동작도 하지 않는다.  
+이외의 문자열: 유효한 디렉토리 이름이다. push() 한다.  
+```
+
+> 💡 문자열 `push()`, `pop()` -> __스택__ 자료구조 !!  
+> * 마지막에 문자열 하나로 합치기를 용이하게 하기 위해, `string` 을 `stack` 처럼 사용했다. (`push_back()`, `pop_back()`)  
