@@ -11,4 +11,20 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
+## Two Pointers
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+## String
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+## Stack
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+## Simulation
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
