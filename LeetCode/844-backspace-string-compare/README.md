@@ -37,3 +37,15 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Can you solve it in <code>O(n)</code> time and <code>O(1)</code> space?</p>
+
+
+---
+
+### Idea
+
+71번(Simplify Path) 문제와 유사.   
+`#` 를 만나면 -> 스택에서 `pop()` 한다. (마지막에 비교를 용이하게 하기 위해 `vector<char>` 를 정의해 스택처럼 사용한다)   
+      
+- c++ 의 `vector`   
+  ⭐ `vector` 끼리 바로 비교가 가능하다. !!   
+  -> 마지막에 `vector<char>` 에 남은 것 하나로 합할 필요 없이, `st1` 과 `st2` 를 비교하기만 하면 된다.   
