@@ -26,3 +26,19 @@
 	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>5</sup>]</code>.</li>
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
 </ul>
+
+---
+
+### Idea  
+
+트리의 최대 깊이(Max Depth)를 구할 때 `max(왼쪽 깊이, 오른쪽 깊이)+1`을 이용했던 것처럼,  
+최소 깊이(Min Depth) 에서는 `min(왼쪽 깊이, 오른쪽 깊이)+1` 를 생각해볼 수 있다.  
+</br>
+
+``` text
+루트 노드가 null (빈 트리) 라면 -> 0  
+왼쪽/오른쪽 자식이 모두 존재하면 -> min(왼쪽 깊이, 오른쪽 깊이)+1  
+왼쪽 자식만 존재하면 -> 왼쪽 깊이+1  
+오른쪽 자식만 존재하면 -> 오른쪽 깊이+1  
+리프 노드이면 -> 1  
+```
