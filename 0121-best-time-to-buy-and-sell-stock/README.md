@@ -29,3 +29,14 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 	<li><code>1 &lt;= prices.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+---
+
+### Idea
+
+처음엔 이중 for문을 도는 단순무식한 방법으로 해결하려 했으나... 시간 초과가 났다.  
+  
+- O(n) 단일 for 문 으로 해결할 수 없을까?  
+
+> 💡 __"지금까지 본 것 중 가장 싼 가격"__ 을 기록 -> `min_price`  
+> `min_price` 에 구매해서 오늘 판다면 수익은 얼마일까? -> `max_profit`  
