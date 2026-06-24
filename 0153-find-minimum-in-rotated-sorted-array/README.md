@@ -46,3 +46,25 @@
 	<li>All the integers of <code>nums</code> are <strong>unique</strong>.</li>
 	<li><code>nums</code> is sorted and rotated between <code>1</code> and <code>n</code> times.</li>
 </ul>
+
+
+---
+
+### Idea
+
+문제에서 `O(logn)` 의 시간복잡도를 요구 -> 반으로 나눠서 범위 좁히기(이분탐색)   
+  
+- 🛑 범위를 좁힐 때,
+  `min = mid;` 와 `max = mid;` 를 썼을 때 // `min = mid+1;` 과 `max = mid-1;` 를 썼을 때 모두에서 문제가 생겼다.  
+  
+-> 무지성으로 짝지어서 둘 중 하나로 쓰지 말 것.  
+💡 __"확실하게 쓰레기통에 버릴 수 있는가?"__ 를 생각.  
+ 
+> __`nums[mid] > nums[max]` 의 경우:__ mid 위치의 값이 우리가 찾는 최솟값일 확률은 없음. -> 버려도 됨. -> `min = mid + 1;`  
+> __`else` 의 경우(`nums[mid] <= nums[max]`):__ mid 위치의 값이 우리가 찾는 그 '최솟값'일 가능성이 있음. !! -> 버리면 안 됨. -> `max = mid;`  
+</br>
+
+- 🛑 while 문의 종결조건: `while(min <= max)` OR `while(min < max)` ??  
+  `while(min <= max)` 을 쓰면 -> `min == max` 가 될 경우 무한 루프에 빠짐. (`min`/`max` 업데이트해도 같은 값)  
+  따라서 `while(min < max)` 조건을 쓰는 것이 알맞음.  
+  -> while 문 끝난 후에는 `nums[min]` 혹은 `nums[max]` 반환하기. (`nums[mid]` 는 `mid` 가 업데이트되지 않았을 가능성 있어서 위험)  
