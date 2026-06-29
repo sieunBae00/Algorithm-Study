@@ -67,3 +67,14 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
+
+
+---
+
+### Idea
+
+입력으로 주어지는 배열의 요소들을 `unordered_set` 에 저장.  
+  
+이후 `0~n` 범위의 숫자가 `unordered_set` 에 있는지를 검사.  
+  
+없다면 -> 그 숫자를 반환.  
