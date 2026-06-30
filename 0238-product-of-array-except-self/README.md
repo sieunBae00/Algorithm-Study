@@ -23,3 +23,15 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong>&nbsp;Can you solve the problem in <code>O(1)</code>&nbsp;extra&nbsp;space complexity? (The output array <strong>does not</strong> count as extra space for space complexity analysis.)</p>
+
+---
+
+### Idea
+
+처음 생각) 누적곱을 계산해 두면 좋을 것 같긴 한데... 한 방향만으로는 안될 것 같다.   
+  
+> 💡 (`i` 번째 수를 제외한 모든 숫자의 곱) = (`i` 기준 왼쪽 숫자들의 곱) * (`i` 기준 오른쪽 숫자들의 곱). 
+   
+-> "양쪽 방향으로" 누적곱 계산. !!    
+`i 번째 수를 제외한 모든 숫자들의 곱` = `{0~(i-1) 번 까지의 곱}` * `{(i+1)~마지막 숫자까지의 곱}`
+
