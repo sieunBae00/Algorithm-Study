@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sieunBae00/Algorithm-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
@@ -21,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 ## String
 |  |
@@ -55,6 +57,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
