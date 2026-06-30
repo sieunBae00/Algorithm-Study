@@ -9,6 +9,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sieunBae00/Algorithm-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/sieunBae00/Algorithm-Study/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
@@ -77,6 +78,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/sieunBae00/Algorithm-Study/tree/master/0238-product-of-array-except-self) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Math
 |  |
