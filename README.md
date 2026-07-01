@@ -112,4 +112,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/sieunBae00/Algorithm-Study/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
