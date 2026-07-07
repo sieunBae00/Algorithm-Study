@@ -35,6 +35,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 ## Simulation
 |  |
@@ -143,4 +144,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0002-add-two-numbers) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
