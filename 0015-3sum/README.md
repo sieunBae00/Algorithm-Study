@@ -39,3 +39,15 @@ Notice that the order of the output and the order of the triplets does not matte
 	<li><code>3 &lt;= nums.length &lt;= 3000</code></li>
 	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+---
+
+### Idea   
+
+한 숫자(`x`) 를 고정, 나머지 둘의 합이 `-x` 가 되도록 하는 쌍을 찾기.   
+  
+- 🛑 어떻게 두 수를 빨리 찾을 것인가?  
+  -> 배열을 정렬, 그 후 포인터를 양쪽에서 출발.
+  
+  > 💡 두 포인터가 가리키는 수의 합이 원하는 수보다 `(작으면 -> 왼쪽 포인터 +1)` / `(크면 -> 오른쪽 포인터 -1)`
+  
