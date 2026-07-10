@@ -27,11 +27,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/sieunBae00/Algorithm-Study/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+| [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+| [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## Stack
 |  |
 | ------- |
