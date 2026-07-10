@@ -43,3 +43,15 @@ merged: a p b q c   d
 	<li><code>1 &lt;= word1.length, word2.length &lt;= 100</code></li>
 	<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>
 </ul>
+
+---
+
+### Idea
+
+`word1`, `word2` 에서 번갈아가며 문자를 `ans` 문자열에 저장.    
+  
+``` text
+while() 내부 동작
+  한 쪽이 먼저 끝나면 -> 다른 한 쪽만 계속 진행
+  둘 다 끝나면 -> 멈추고 ans 를 반환
+```
