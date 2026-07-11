@@ -19,3 +19,19 @@
 	<li>There are no two adjacent flowers in <code>flowerbed</code>.</li>
 	<li><code>0 &lt;= n &lt;= flowerbed.length</code></li>
 </ul>
+
+---
+
+### Idea
+
+문제 태그가.. `greedy`?  
+  
+경우의 수는 다양하지만 특정 방법을 쓴다고 해서 더 많이 넣을 수는 없음.  
+-> `greedy` 로 __일단 놓을 수 있으면 놓아 본다. !!__. 
+</br>
+
+- 첫 번째/마지막 원소에 대한 것 각각 따로 처리  
+  (*원래 원소가 1이면 이미 flower 가 심어져 있는 것이므로 개수를 더하면 안 된다. !!)
+  
+- 배열 크기가 1일 경우 예외 케이스 처리  
+
