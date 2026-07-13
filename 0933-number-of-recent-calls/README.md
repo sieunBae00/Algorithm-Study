@@ -35,3 +35,16 @@ recentCounter.ping(3002);  // requests = [1, <u>100</u>, <u>3001</u>, <u>3002</u
 	<li>Each test case will call <code>ping</code> with <strong>strictly increasing</strong> values of <code>t</code>.</li>
 	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>ping</code>.</li>
 </ul>
+
+---
+
+### Idea
+
+문제 이해) `RecentCounter()` 로 최근 요청을 초기화한다.  
+`ping(int t)` 로 `t` 밀리초때의 `ping` 요청이 주어진다.  
+요청 시마다 근 3000 밀리초 내에 주어진 요청의 개수를 반환한다.  
+*`t`는 모든 경우에 '증가하는 형태로' 주어진다.  
+</br>
+
+`t` 가 증가하는 형태로 주어지므로, 선입선출 자료구조인 `queue` 를 이용한다.    
+-> `ping()` 요청이 올 때마다 큐에 `push()` 하고, 3000ms 보다 오래된 요청들은 큐에서 삭제(`pop()`) 한다.  
