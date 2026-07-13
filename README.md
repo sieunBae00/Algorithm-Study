@@ -14,6 +14,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0238-product-of-array-except-self](https://github.com/sieunBae00/Algorithm-Study/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 | [0605-can-place-flowers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
@@ -165,4 +166,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0605-can-place-flowers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0605-can-place-flowers) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
