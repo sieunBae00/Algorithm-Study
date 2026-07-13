@@ -157,11 +157,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sieunBae00/Algorithm-Study/tree/master/0232-implement-queue-using-stacks) |
+| [0933-number-of-recent-calls](https://github.com/sieunBae00/Algorithm-Study/tree/master/0933-number-of-recent-calls) |
 ## Queue
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sieunBae00/Algorithm-Study/tree/master/0232-implement-queue-using-stacks) |
+| [0933-number-of-recent-calls](https://github.com/sieunBae00/Algorithm-Study/tree/master/0933-number-of-recent-calls) |
 ## Greedy
 |  |
 | ------- |
@@ -170,4 +172,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/0643-maximum-average-subarray-i) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/sieunBae00/Algorithm-Study/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
