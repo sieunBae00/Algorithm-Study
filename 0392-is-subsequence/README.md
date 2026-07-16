@@ -21,3 +21,15 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Suppose there are lots of incoming <code>s</code>, say <code>s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub></code> where <code>k &gt;= 10<sup>9</sup></code>, and you want to check one by one to see if <code>t</code> has its subsequence. In this scenario, how would you change your code?
+
+---
+
+### Idea
+
+`s` 를 이루는 문자가 순서대로 `t` 에 포함되어 있어야 하므로,   
+`s` 의 현재 문자와 `t` 의 현재 문자가 일치하지 않으면 `t` 에서 한 칸 뒤로 이동하여 계속해서 찾게 된다.  
+
+``` text
+`s` 의 범위를 벗어났다면 -> 모두 찾은 것이므로 `true` 반환. 
+`t` 의 범위를 벗어났다면 -> 끝까지 탐색했음에도 찾지 못한 것이므로 `false` 반환.
+```
