@@ -32,12 +32,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/sieunBae00/Algorithm-Study/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0283-move-zeroes](https://github.com/sieunBae00/Algorithm-Study/tree/master/0283-move-zeroes) |
+| [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
+| [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## Stack
@@ -55,6 +57,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sieunBae00/Algorithm-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
+| [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
 ## Binary Search
 |  |
 | ------- |
