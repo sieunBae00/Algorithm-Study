@@ -47,3 +47,14 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as&nbsp;1991:&nbsp;<a href="https://leetcode.com/problems/find-the-middle-index-in-array/" target="_blank">https://leetcode.com/problems/find-the-middle-index-in-array/</a></p>
+
+---
+
+### Idea
+
+`sumLeft[]` 배열을 만들어 피봇이 `i` 일 때, 피봇 왼쪽 숫자들의 합을 기록한다. (누적합)     
+`sumRight[]` 배열을 만들어 피봇이 `i` 일 때, 피봇 오른쪽 숫자들의 합을 기록한다. (누적합)     
+**피봇 자신은 포함되지 않음에 유의한다. !!    
+      
+`sumLeft[]`, `sumRight[]` 배열을 비교하여 `sumLeft[i] == sumRight[i]` 인 순간의 `i` 를 반환한다. (그때의 `i` 가 피봇이 된다.)     
+그런 순간이 없다면 `-1` 을 반환한다.    
