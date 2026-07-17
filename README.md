@@ -116,6 +116,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/sieunBae00/Algorithm-Study/tree/master/0206-reverse-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
 ## Memoization
 |  |
@@ -165,6 +166,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/sieunBae00/Algorithm-Study/tree/master/0206-reverse-linked-list) |
 ## Design
 |  |
 | ------- |
