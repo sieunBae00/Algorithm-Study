@@ -32,3 +32,14 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
+
+---
+
+### Idea
+
+처음 생각) 순서를 앞에서부터 바꾸나 뒤에서부터 바꾸나 중간 연결이 끊기게 될 것 같은데...   
+   
+-> 앞에서부터 바꾸되, 연결을 끊기 전에 __다음 노드를 가리키는 포인터를 미리 저장__ 해 두자. !!    
+</br>
+
+- `linked list` 의 노드 수가 `0`, `1` 일 때의 예외처리   
