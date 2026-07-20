@@ -34,3 +34,24 @@ Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
 	<li><code>1 &lt;= nums1.length, nums2.length &lt;= 1000</code></li>
 	<li><code>-1000 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>
 </ul>
+
+
+---
+
+### Idea
+
+처음 생각) 다른 한 배열에 있는지/없는지를 판단해야 한다. 원소 개수의 영향을 받지 않으므로 `unordered_set` 을 사용한다.   
+</br>
+
+- 🛑 처음에 `nums1[]`, `nums2[]` 를 각각 순회하면서 `set2`, `set1` 에 있는지를 검사했는데, 문제가 생겼다.    
+  -> `nums1[]`, `nums2[]` 는 중복 제거가 안 된 상태이므로 같은 숫자에 대해 여러 번 검사하고, 그에 따라 원소를 여러 번 추가하게 되는 경우가 있기 때문이다.    
+  그러나 문제에서는 원소의 개수는 상관 없이 해당 원소가 다른 배열에 있는지/없는지만 판단하면 된다.    
+  => __`nums1[]`, `nums2[]` 가 아닌 `set1`, `set2` 를 순회__ 하며 각 원소가 다른 하나의 `set(set2/set1)` 에 있는지를 검사한다.   
+  
+- ⭐ unordered_set 을 순회하는 방법    
+  `unordered_set` 은 인덱스로 접근이 불가능하다. `iterator` 를 사용하여 순회한다. 다음과 같이 코드를 활용할 수 있다.
+  ``` cpp
+  for(auto it = set.begin(); it != set.end(); ++it){ // iterator 자료형이 복잡하므로 auto 사용
+     cout << *it << endl; // '*it' 으로 요소의 값에 접근
+  }
+  ```
