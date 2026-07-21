@@ -29,3 +29,17 @@
 	<li><code>1 &lt;= arr.length &lt;= 1000</code></li>
 	<li><code>-1000 &lt;= arr[i] &lt;= 1000</code></li>
 </ul>
+
+
+---
+
+### Idea
+
+문제 이해) 배열에 속한 원소별 "등장 횟수" 가 unique 하면 true, 아니면 false 반환.   
+   
+처음 생각) `pair<int, int>` 형태(`{숫자, 등장횟수}`) 로 `unordered_map` 에 저장 -> 이후 pair 의 second(=등장 횟수) 가 같은 것이 있는지 비교   
+
+- `second` 일일히 비교 ...?   
+  일일히 비교하면 시간이 오래걸림    
+  -> `second` 를 `unordered_set` 에 저장, `set` 은 자동으로 중복을 제거한다.    
+  따라서 `map` 의 사이즈와 `set` 의 사이즈가 다르다면 -> 중복 된 것이 존재했음 = false 반환. // 사이즈 같으면 -> 중복 없음 = true 반환.    
