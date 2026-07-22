@@ -30,3 +30,20 @@
 	<li>The number of nodes in each tree will be in the range <code>[1, 200]</code>.</li>
 	<li>Both of the given trees will have values in the range <code>[0, 200]</code>.</li>
 </ul>
+
+---
+
+### Idea
+
+DFS 로 트리를 순회하며 리프 노드를 저장. 저장된 노드의 순서와 값이 모두 일치하면 true.   
+    
+DFS 방식으로 재귀를 돌아야 하므로, `findLeaf()` 함수를 `void` 로 설계, `vector` 를 반환하는 것이 아닌 저장만 하도록 했다.   
+</br>
+
+- 🛑 함수로 배열을 전달: __참조에 의한 전달(Pass by Reference)__ 을 해야 한다.   
+  값에 의한 전달(Pass by Value) 의 경우에는 배열의 원본이 전달되는 것이 아닌 복사본이 전달되므로,
+  배열의 원본을 전달하기 위해 아래와 같이 참조에 의한 전달을 사용한다.    
+
+```cpp
+    void findLeaf(TreeNode* root, vector<int>& leaves){ // 배열 전달: 참조에 의한 전달
+```
