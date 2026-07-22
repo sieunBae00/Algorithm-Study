@@ -137,6 +137,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -145,6 +146,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
+| [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -152,6 +154,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
 ## Backtracking
 |  |
 | ------- |
