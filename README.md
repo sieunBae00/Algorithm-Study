@@ -67,6 +67,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
+| [0374-guess-number-higher-or-lower](https://github.com/sieunBae00/Algorithm-Study/tree/master/0374-guess-number-higher-or-lower) |
 ## Hash Table
 |  |
 | ------- |
@@ -219,4 +220,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/sieunBae00/Algorithm-Study/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
