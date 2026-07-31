@@ -9,6 +9,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/sieunBae00/Algorithm-Study/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/sieunBae00/Algorithm-Study/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sieunBae00/Algorithm-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
@@ -131,6 +132,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 ## Tree
 |  |
