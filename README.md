@@ -20,6 +20,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0643-maximum-average-subarray-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sieunBae00/Algorithm-Study/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/0746-min-cost-climbing-stairs) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [1207-unique-number-of-occurrences](https://github.com/sieunBae00/Algorithm-Study/tree/master/1207-unique-number-of-occurrences) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sieunBae00/Algorithm-Study/tree/master/1431-kids-with-the-greatest-number-of-candies) |
@@ -64,6 +65,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sieunBae00/Algorithm-Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
 | [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/1137-n-th-tribonacci-number) |
 ## Binary Search
 |  |
