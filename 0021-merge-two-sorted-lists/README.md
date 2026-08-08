@@ -34,3 +34,17 @@
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 	<li>Both <code>list1</code> and <code>list2</code> are sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
+
+
+---
+
+### Idea
+
+이미 정렬되어 있는 두 연결 리스트를 병합하는 문제.    
+값이 더 작은 쪽을 먼저 연결하고, 다음 칸으로 이동, 다시 비교한다. (반복)        
+</br>
+
+- ⭐ 시작 노드를 가리키는 `dummy` 노드를 만들어 둔다.    
+  그리고 `dummy` 노드를 가리키는 `curr` 를 두어, `curr` 를 전진시키며 노드들을 연결한다.     
+  모든 연결 이후에 `dummy->next` 를 반환하면 된다.
+  
