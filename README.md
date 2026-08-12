@@ -50,6 +50,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0345-reverse-vowels-of-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sieunBae00/Algorithm-Study/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## Stack
 |  |
@@ -124,6 +125,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0002-add-two-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0002-add-two-numbers) |
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sieunBae00/Algorithm-Study/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1137-n-th-tribonacci-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/1137-n-th-tribonacci-number) |
 ## Recursion
 |  |
@@ -236,4 +238,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/sieunBae00/Algorithm-Study/tree/master/0374-guess-number-higher-or-lower) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sieunBae00/Algorithm-Study/tree/master/1071-greatest-common-divisor-of-strings) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sieunBae00/Algorithm-Study/tree/master/1071-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
