@@ -44,3 +44,10 @@ There are no more stars, so we return &quot;lecoe&quot;.</pre>
 	<li><code>s</code> consists of lowercase English letters and stars <code>*</code>.</li>
 	<li>The operation above can be performed on <code>s</code>.</li>
 </ul>
+
+
+---
+
+### Idea
+
+스택(`stack<string>`) 을 선언하지 않고도, `.push_back()`, `.pop_back()` 을 이용하여 문자열의 끝부분을 스택처럼 다룰 수 있다.
