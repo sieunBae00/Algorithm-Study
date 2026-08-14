@@ -32,3 +32,12 @@ There are no more pairs that sum up to 6, hence a total of 1 operation.</pre>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+
+---
+
+### Idea
+
+정렬 후 투포인터. !!   
+양쪽에서 가운데로 다가오며 두 포인터가 가리키는 값의 합이 주어진 `k` 와 같은 경우의 갯수 세기   
+
