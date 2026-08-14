@@ -24,6 +24,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [1207-unique-number-of-occurrences](https://github.com/sieunBae00/Algorithm-Study/tree/master/1207-unique-number-of-occurrences) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sieunBae00/Algorithm-Study/tree/master/1431-kids-with-the-greatest-number-of-candies) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1732-find-the-highest-altitude](https://github.com/sieunBae00/Algorithm-Study/tree/master/1732-find-the-highest-altitude) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sieunBae00/Algorithm-Study/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
@@ -42,6 +43,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0345-reverse-vowels-of-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
@@ -85,6 +87,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 | [1207-unique-number-of-occurrences](https://github.com/sieunBae00/Algorithm-Study/tree/master/1207-unique-number-of-occurrences) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sieunBae00/Algorithm-Study/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -96,6 +99,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0215-kth-largest-element-in-an-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/sieunBae00/Algorithm-Study/tree/master/2225-find-players-with-zero-or-one-losses) |
 ## Divide and Conquer
 |  |
