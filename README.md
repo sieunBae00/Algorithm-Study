@@ -20,6 +20,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0643-maximum-average-subarray-i](https://github.com/sieunBae00/Algorithm-Study/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sieunBae00/Algorithm-Study/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/0746-min-cost-climbing-stairs) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [1207-unique-number-of-occurrences](https://github.com/sieunBae00/Algorithm-Study/tree/master/1207-unique-number-of-occurrences) |
@@ -60,11 +61,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sieunBae00/Algorithm-Study/tree/master/0232-implement-queue-using-stacks) |
+| [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [2390-removing-stars-from-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/2390-removing-stars-from-a-string) |
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [2390-removing-stars-from-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/2390-removing-stars-from-a-string) |
 ## Dynamic Programming
