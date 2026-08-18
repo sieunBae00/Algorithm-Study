@@ -64,4 +64,42 @@
 *정답 배열의 마지막 원소가 이미 음수일 경우, 그대로 정답 배열에 추가.   
 (특히, 주어지는 원소가 음수이고, 배열의 마지막 원소와 대결하여 승리하다가- 마지막 원소로 음수를 만나게 되었을 때.)    
 
-#### Advanced
+---
+
+### Advanced
+
+위의 방법은 while 문의 로직이 매우 복잡한데, 이를 보다 간결히 만들 수 있다.    
+    
+현재 소행성의 상태를 나타내는 flag 변수를 추가하는 것이다.    
+    
+flag 변수는 -> 소행성이 이겼는지(`true`)/졌는지(`false`) 를 나타낸다.    
+이긴 경우에만 `v.push_back()` 하면 된다.    
+    
+위의 코드는 로직 상 while 문 중/후 를 구분하여 동작하기가 힘든데, flag 변수를 두면 while 문 중/후 의 동작을 구분할 수 있어 while 문이 간결해진다.     
+
+첫 else 문을 다음과 같이 수정하면 된다.  
+
+
+``` cpp
+else{ //음수일 경우: 정답 배열의 마지막 원소와 비교
+                flag = true; // 초기화
+
+                while(ans.size() > 0 && ans.back() > 0){ // 마지막 원소가 양수일 경우
+                    if(asteroids[i] + ans.back() == 0){ // 비겼다
+                        flag = false; // 터짐
+                        ans.pop_back(); // 상대도 터짐
+                        break; // 다음 원소로 넘어감
+                    }
+                    else if(asteroids[i] + ans.back() > 0){ // 졌다
+                        flag = false; // 터짐
+                        break; // 다음 원소로 넘어감
+                    }
+                    else{ // 이겼다
+                        ans.pop_back(); // 상대가 터짐
+                        continue; // 다음 상대에게
+                    }
+                }
+
+                if(flag == true) ans.push_back(asteroids[i]); // 살아남은 경우에만 정답 배열에 추가
+            }
+```
