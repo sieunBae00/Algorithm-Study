@@ -41,3 +41,14 @@
 
 <p>&nbsp;</p>
 <p><b data-stringify-type="bold">Follow-up:&nbsp;</b>If the string data type is mutable in your language, can&nbsp;you solve it&nbsp;<b data-stringify-type="bold">in-place</b>&nbsp;with&nbsp;<code data-stringify-type="code">O(1)</code>&nbsp;extra space?</p>
+
+---
+
+### Idea
+
+스택 자료구조를 쓰지 않고도 문자열의 뒤가 아닌 앞에 이어 붙이도록 하여 구현할 수 있다.    
+     
+`" "` 공백 으로 단어가 구분됨. -> 공백이 나올 때마다 단어를 정답 문자열의 앞에 추가.     
+    
+- 🛑 예외 상황: 마지막 단어는? 마지막에 `" "` 이 없음.   
+  -> 주어지는 문자열의 마지막에 공백을 추가하고 시작하자!   
