@@ -35,3 +35,25 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Could you implement a solution that runs in <code>O(n)</code> time complexity and <code>O(1)</code> space complexity?
+
+---
+
+### Idea
+
+처음 생각) 더 작은 게 있으면.. 바꾸는 게 이롭다. 대체 조건은?    
+    
+한 쌍씩 생각하면 '뒤쪽에 나보다 큰 원소가 하나는 있어야 해' 이다. 그걸 두 번..     
+-> `O(n^2)` 라... 처음 방법으로 가자.     
+    
+생각보다 코드로 옮기면 복잡하지 않다.    
+
+``` text
+*배열을 순회하며 마주치는 원소는 first/second/third 모두의 후보가 된다. 셋 모두를 검사.    
+** first, second 를 매우 큰 수(INT_MAX) 로 놓고 시작한다.   
+    
+- first 보다 작으면 first 를 대체한다.    
+- first 보다 크고 second 보다 작으면 second 를 대체한다.   
+- second 보다 크면 third 이다. -> true 반환하고 끝.   
+   
+모두 순회한 후에도 true 가 반환되지 않았다면 false 반환.   
+```
