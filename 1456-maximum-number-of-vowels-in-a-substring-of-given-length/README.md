@@ -35,3 +35,14 @@
 	<li><code>s</code> consists of lowercase English letters.</li>
 	<li><code>1 &lt;= k &lt;= s.length</code></li>
 </ul>
+
+---
+
+### Idea
+
+윈도우 크기를 `k` 로 유지하며 전체 배열을 순회, `max` 를 업데이트한다.    
+    
+- *처음에 `curr = max;` 를 `for` 문 안쪽에 넣었다가 틀린 답이 나왔다.   
+  `max` 는 현재가 아닐 수 있으므로(매번 업데이트되는 것이 아니므로) 처음 한 번만 for 문 밖에서 대입하는 것이 옳다.   
+
+  
