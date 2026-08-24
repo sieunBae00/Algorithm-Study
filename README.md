@@ -55,6 +55,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0241-different-ways-to-add-parentheses](https://github.com/sieunBae00/Algorithm-Study/tree/master/0241-different-ways-to-add-parentheses) |
 | [0345-reverse-vowels-of-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0392-is-subsequence) |
+| [0649-dota2-senate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0649-dota2-senate) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/sieunBae00/Algorithm-Study/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sieunBae00/Algorithm-Study/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -219,12 +220,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sieunBae00/Algorithm-Study/tree/master/0232-implement-queue-using-stacks) |
+| [0649-dota2-senate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0649-dota2-senate) |
 | [0933-number-of-recent-calls](https://github.com/sieunBae00/Algorithm-Study/tree/master/0933-number-of-recent-calls) |
 ## Greedy
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0649-dota2-senate) |
 ## Sliding Window
 |  |
 | ------- |
