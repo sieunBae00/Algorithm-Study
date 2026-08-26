@@ -48,6 +48,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/sieunBae00/Algorithm-Study/tree/master/1768-merge-strings-alternately) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sieunBae00/Algorithm-Study/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## String
 |  |
 | ------- |
@@ -213,6 +214,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0002-add-two-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/sieunBae00/Algorithm-Study/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/sieunBae00/Algorithm-Study/tree/master/0206-reverse-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sieunBae00/Algorithm-Study/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Design
 |  |
 | ------- |
