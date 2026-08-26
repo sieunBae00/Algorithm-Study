@@ -45,3 +45,16 @@ Node 0 with value 2 is the only node remaining after removing node 1.</pre>
 	<li>The number of nodes in the list is in the range <code>[1, 10<sup>5</sup>]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+---
+
+### Idea
+
+처음 생각)    
+연결 리스트를 끝까지 순회하여 크기를 알아낸 다음, 다시 중간까지 가서 삭제한다.     
+   
+- 순회 도중에 중간 노드임을 아는 방법?     
+  두 칸씩 건너뛰는 포인터, 한 칸씩 가는 포인터 를 각각 두어 두 칸 짜리가 연결 리스트의 끝에 도달하면 그때 한 칸씩 가는 포인터의 위치가 중간 노드가 된다.    
+  (Runner 기법)     
+    
+*`middle` 노드는 '내림' 으로 계산함에 유의한다. -> `head` 를 가리키는 `dummy` 노드를 두어, `slow` 포인터를 `fast` 보다 한 칸 뒤에서 시작하도록 한다.    
