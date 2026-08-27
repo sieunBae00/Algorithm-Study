@@ -166,6 +166,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0101-symmetric-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0101-symmetric-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
@@ -177,6 +178,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0101-symmetric-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0101-symmetric-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
@@ -188,6 +190,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0101-symmetric-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0101-symmetric-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
@@ -275,4 +278,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/sieunBae00/Algorithm-Study/tree/master/0334-increasing-triplet-subsequence) |
+## Binary Lifting
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
