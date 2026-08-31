@@ -62,7 +62,7 @@ Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s al
 > 💡 재귀(recursion) !!  `root->right = deleteNode(root->right, key);` 와 같이 쓰면,    
 > 자식이 스스로를 지우고 `nullptr` 또는 다른 자식 노드를 반환하는 셈이 된다.      
 > 따라서 부모 입장에서 `nullptr` 또는 (자식을 건너뛰고) '자식의 자식' 노드를 가리키게 되는 것.     
-     
+</br>   
 
 - 🛑 자식이 2개인 경우 대체할 노드를 찾기 위한 헬퍼 함수(`findSub()`) 를 구현할 때, 헬퍼 함수에 '노드 찾기' + '노드 삭제' 기능을 모두 구현하려다 보니 코드가 꼬였다.    
   -> ⭐ 우린 이미 '노드 삭제' 함수를 구현했다. !! (`deleteNode()`)    
