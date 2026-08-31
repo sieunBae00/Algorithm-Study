@@ -47,3 +47,23 @@ Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s al
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you solve it with time complexity <code>O(height of tree)</code>?</p>
+
+
+---
+
+### Idea
+
+우선 삭제할 노드를 찾아야(탐색) 한다.     
+     
+- 🛑 찾으면 -> 그 찾은 노드를 삭제해야 하는데(=부모 노드의 포인터 변경)... 부모 노드로 거슬러 올라갈 수가 없다.    
+  어쩌지? 자식에 도달하기 전에 부모 노드에서 멈춰야 하나?     
+  그런데 삭제할 노드의 자식 또한 검사해야 하므로 부모, 자식 둘을 모두 저장해야 하겠네.. <- 구현 어떻게?      
+
+> 💡 재귀(recursion) !!  `root->right = deleteNode(root->right, key);` 와 같이 쓰면,    
+> 자식이 스스로를 지우고 `nullptr` 또는 다른 자식 노드를 반환하는 셈이 된다.      
+> 따라서 부모 입장에서 `nullptr` 또는 (자식을 건너뛰고) '자식의 자식' 노드를 가리키게 되는 것.     
+     
+
+- 🛑 자식이 2개인 경우 대체할 노드를 찾기 위한 헬퍼 함수(`findSub()`) 를 구현할 때, 헬퍼 함수에 '노드 찾기' + '노드 삭제' 기능을 모두 구현하려다 보니 코드가 꼬였다.    
+  -> ⭐ 우린 이미 '노드 삭제' 함수를 구현했다. !! (`deleteNode()`)    
+  따라서 헬퍼 함수는 노드를 찾게만 시키고, 반환해온 값으로 `deleteNode()` 의 재귀함수를 호출하면 된다.    
