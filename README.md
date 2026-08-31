@@ -167,6 +167,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/sieunBae00/Algorithm-Study/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
@@ -191,6 +192,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0129-sum-root-to-leaf-numbers](https://github.com/sieunBae00/Algorithm-Study/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/sieunBae00/Algorithm-Study/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
@@ -261,6 +263,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Binary Search Tree
 |  |
 | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/sieunBae00/Algorithm-Study/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
 ## Interactive
 |  |
