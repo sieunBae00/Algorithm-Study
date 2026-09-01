@@ -23,6 +23,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/0746-min-cost-climbing-stairs) |
+| [0875-koko-eating-bananas](https://github.com/sieunBae00/Algorithm-Study/tree/master/0875-koko-eating-bananas) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
 | [1207-unique-number-of-occurrences](https://github.com/sieunBae00/Algorithm-Study/tree/master/1207-unique-number-of-occurrences) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sieunBae00/Algorithm-Study/tree/master/1431-kids-with-the-greatest-number-of-candies) |
@@ -90,6 +91,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/sieunBae00/Algorithm-Study/tree/master/0374-guess-number-higher-or-lower) |
+| [0875-koko-eating-bananas](https://github.com/sieunBae00/Algorithm-Study/tree/master/0875-koko-eating-bananas) |
 ## Hash Table
 |  |
 | ------- |
