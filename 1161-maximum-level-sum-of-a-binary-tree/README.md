@@ -30,6 +30,10 @@ So we return the level with the maximum sum which is level 2.
 	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
 
+---
+
+### Idea
+
 `BFS` 는.. `queue` 를 쓴다.    
 `queue` 에 `level` 을 나타내는 값을 함께 `pair` 로 저장.    
     
