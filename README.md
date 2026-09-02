@@ -174,6 +174,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -186,6 +187,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
 | [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -199,6 +201,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0572-subtree-of-another-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0700-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/sieunBae00/Algorithm-Study/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Backtracking
 |  |
@@ -210,6 +213,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0101-symmetric-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/0226-invert-binary-tree) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sieunBae00/Algorithm-Study/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Matrix
 |  |
