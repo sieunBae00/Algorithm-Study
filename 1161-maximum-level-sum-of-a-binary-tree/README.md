@@ -29,3 +29,11 @@ So we return the level with the maximum sum which is level 2.
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+`BFS` 는.. `queue` 를 쓴다.    
+`queue` 에 `level` 을 나타내는 값을 함께 `pair` 로 저장.    
+    
+- 같은 `level` 의 값들끼리 합산 어떻게?     
+  💡 `frequency array` (빈도 배열, 인덱스를 `key` 처럼 사용) 이용.      
+    
+등장한 `level` 범위 내에서 배열을 순회하며, 가장 큰 값(=`levelSum`) 의 인덱스를 저장. 인덱스 값(=`level`) 을 반환.     
