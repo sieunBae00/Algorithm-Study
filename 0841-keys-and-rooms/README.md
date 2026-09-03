@@ -37,3 +37,15 @@ Since we were able to visit every room, we return true.
 	<li><code>0 &lt;= rooms[i][j] &lt; n</code></li>
 	<li>All the values of <code>rooms[i]</code> are <strong>unique</strong>.</li>
 </ul>
+
+---
+
+### Idea
+
+그래프의 덩어리(영역) 개수..   
+영역 개수가 `1` 이어야 (모든 노드를 방문할 수 있어야 = 모든 방문을 열 수 있어야) 한다. -> `True`    
+   
+아직 방문하지 않은 방만 추가로 열면 된다. => `visited[]` 배열     
+   
+탐색이 끝난 후 (더 이상 방문을 열 수 없을 때)    
+`visited` 배열이 모두 `True` 인지 검사. (하나라도 방문 안한 방이 있으면 영역 개수는 `1` 이 아님)    
