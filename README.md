@@ -22,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0724-find-pivot-index](https://github.com/sieunBae00/Algorithm-Study/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/sieunBae00/Algorithm-Study/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/sieunBae00/Algorithm-Study/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/sieunBae00/Algorithm-Study/tree/master/0746-min-cost-climbing-stairs) |
 | [0875-koko-eating-bananas](https://github.com/sieunBae00/Algorithm-Study/tree/master/0875-koko-eating-bananas) |
 | [1046-last-stone-weight](https://github.com/sieunBae00/Algorithm-Study/tree/master/1046-last-stone-weight) |
@@ -69,6 +70,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0225-implement-stack-using-queues](https://github.com/sieunBae00/Algorithm-Study/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sieunBae00/Algorithm-Study/tree/master/0232-implement-queue-using-stacks) |
 | [0735-asteroid-collision](https://github.com/sieunBae00/Algorithm-Study/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/sieunBae00/Algorithm-Study/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/sieunBae00/Algorithm-Study/tree/master/0844-backspace-string-compare) |
 | [2390-removing-stars-from-a-string](https://github.com/sieunBae00/Algorithm-Study/tree/master/2390-removing-stars-from-a-string) |
 ## Simulation
@@ -305,4 +307,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0841-keys-and-rooms](https://github.com/sieunBae00/Algorithm-Study/tree/master/0841-keys-and-rooms) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/sieunBae00/Algorithm-Study/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
