@@ -32,3 +32,24 @@
 	<li><code>isConnected[i][i] == 1</code></li>
 	<li><code>isConnected[i][j] == isConnected[j][i]</code></li>
 </ul>
+
+
+---
+
+### Idea
+
+문제 이해) '연결 요소의 개수' 찾기.    
+-> DFS 를 몇 번 돌아야 전체를 방문할 수 있는지 구한다.    
+</br>
+
+- 🛑 간선 정보는 `n*n` 인접 행렬로 주어진다.    
+  '인접 리스트' 형태에 익숙한 나머지, 처음에 다음과 같이 코드를 작성했다.    
+
+``` cpp
+for(int next : isConnected[curr]){
+    if(next == 1 && !visited[next]) DFS(next, isConnected, visited);
+}
+```
+
+위와 같이 코드를 작성하면 `next` 에는 노드의 인덱스 값이 들어가는 것이 아닌 0 또는 1의 값이 들어가게 되고,         
+`DFS(1, ...);` 이 되어 인덱스가 `1`인 노드로만 계속해서 탐색을 시도하게 된다. 따라서 값이 아닌 인덱스를 순회하는 형태로 변경해야 한다.     
