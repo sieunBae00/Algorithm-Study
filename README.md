@@ -13,6 +13,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sieunBae00/Algorithm-Study/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sieunBae00/Algorithm-Study/tree/master/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/sieunBae00/Algorithm-Study/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/sieunBae00/Algorithm-Study/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/sieunBae00/Algorithm-Study/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/sieunBae00/Algorithm-Study/tree/master/0268-missing-number) |
@@ -216,6 +217,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0052-n-queens-ii](https://github.com/sieunBae00/Algorithm-Study/tree/master/0052-n-queens-ii) |
+| [0216-combination-sum-iii](https://github.com/sieunBae00/Algorithm-Study/tree/master/0216-combination-sum-iii) |
 ## Breadth-First Search
 |  |
 | ------- |
