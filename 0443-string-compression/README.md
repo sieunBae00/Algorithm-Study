@@ -50,3 +50,24 @@ After modifying the input array in-place, the first 4 characters of <code>chars<
 	<li><code>1 &lt;= chars.length &lt;= 2000</code></li>
 	<li><code>chars[i]</code> is a lowercase English letter, uppercase English letter, digit, or symbol.</li>
 </ul>
+
+
+---
+
+### Idea
+
+처음 생각)    
+새로운 정답 배열을 만들기 x. 입력으로 들어오는 `chars` 배열을 수정해야 함.     
+     
+같으면 -> 현재 위치 erase     
+다르면 -> 현재 위치에 cnt 추가하고 다음으로.     
+</br>
+
+🛑 ** `erase()` 는 필연적으로 `shift` 발생. <- time limit exceeded!     
+    
+** compression 한 정답 배열 자체도 존재해야 하는 것 아닌가?    
+-> 맞음. 그런데 채점 시 원본 배열로부터 '반환값(크기) 만큼만 떼어서' 검사함. -> 직접 뒤쪽 자를 필요 x.   
+   
+투포인터로.. `read & write`   
+`read`: 같은 것이 나올 동안 계속 전진(개수 세기)    
+`write`: 더 이상 같은 것이 아니면, 해당 문자와 그 개수를 `write` 자리에 덮어쓰기.   
